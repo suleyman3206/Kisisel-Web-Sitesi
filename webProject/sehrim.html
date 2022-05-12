@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title></title>
+		<link
+			rel="icon"
+			href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTAyLjY2NCA1MDIuNjY0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MDIuNjY0IDUwMi42NjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBzdHlsZT0iZmlsbDojMDEwMDAyOyIgZD0iTTE1My44MjEsMzU4LjIyNkwwLDI3NC4zMzd2LTQ2LjQ2M2wxNTMuODIxLTgzLjQxNHY1NC41NzRMNDYuNjM2LDI1MC41MjNsMTA3LjE4NSw1My40MzENCgkJCUMxNTMuODIxLDMwMy45NTQsMTUzLjgyMSwzNTguMjI2LDE1My44MjEsMzU4LjIyNnoiLz4NCgkJPHBhdGggc3R5bGU9ImZpbGw6IzAxMDAwMjsiIGQ9Ik0xODAuMDk0LDM4Ny41ODRMMjgyLjEwMywxMTUuMDhoMzIuMjI3TDIxMi4wODQsMzg3LjU4NEgxODAuMDk0eiIvPg0KCQk8cGF0aCBzdHlsZT0iZmlsbDojMDEwMDAyOyIgZD0iTTM0OC44NDMsMzU4LjIyNnYtNTQuMjcybDEwNy4xNjQtNTIuOTk5bC0xMDcuMTY0LTUyLjU5di01My45MjdsMTUzLjgyMSw4My41MjJ2NDYuMTgzDQoJCQlMMzQ4Ljg0MywzNTguMjI2eiIvPg0KCTwvZz4NCgk8Zz4NCgk8L2c+DQoJPGc+DQoJPC9nPg0KCTxnPg0KCTwvZz4NCgk8Zz4NCgk8L2c+DQoJPGc+DQoJPC9nPg0KCTxnPg0KCTwvZz4NCgk8Zz4NCgk8L2c+DQoJPGc+DQoJPC9nPg0KCTxnPg0KCTwvZz4NCgk8Zz4NCgk8L2c+DQoJPGc+DQoJPC9nPg0KCTxnPg0KCTwvZz4NCgk8Zz4NCgk8L2c+DQoJPGc+DQoJPC9nPg0KCTxnPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K"
+		/>
+
+		<link rel="stylesheet" href="Assets/css/style.css" />
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+
+		<script src="https://kit.fontawesome.com/fa2f2b7293.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+		<div id="page-container">
+			<div id="content-wrap">
+				<nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+					<div class="container">
+						<a class="navbar-brand" href="index.html"><img src="Assets/img/logo.png" alt="" /></a>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarNavDropdown"
+							aria-controls="navbarNavDropdown"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link" aria-current="page" href="index.html">Hakkımda</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="ozgecmis.html">Özgeçmiş</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="ilgiAlanlarım.html">Hava Durumu</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link active" href="sehrim.html">Şehrim</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="miras.html">Mirasımız</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="iletisim.html">İletişim</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<div class="container-md">
+					<h1 id="h1">ESKİŞEHİR</h1>
+
+					<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								data-bs-target="#carouselExampleDark"
+								data-bs-slide-to="0"
+								class="active"
+								aria-current="true"
+							></button>
+							<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></button>
+							<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></button>
+							<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active" data-bs-interval="5000">
+								<a href="#section1">
+									<img src="Assets/img/esk.jpg" class="d-block w-100" alt="..." />
+								</a>
+							</div>
+							<div class="carousel-item" data-bs-interval="2000">
+								<a href=" #section2">
+									<img src="Assets/img/akbas.jpg" class="d-block w-100 img-fluid" alt="..."
+								/></a>
+							</div>
+							<div class="carousel-item" data-bs-interval="2000">
+								<a href="#section3">
+									<img src="Assets/img/odunpazarı.jpg" class="d-block w-100" alt="..."
+								/></a>
+							</div>
+							<div class="carousel-item">
+								<a href="#section4">
+									<img src="Assets/img/kalabak.jpg" class="d-block w-100" alt="..."
+								/></a>
+							</div>
+						</div>
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselExampleDark"
+							data-bs-slide="prev"
+						>
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselExampleDark"
+							data-bs-slide="next"
+						>
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+
+					<div id="section1" class="section uzun">
+						<h2>Tarihçe</h2>
+
+						<div class="row">
+							<div class="col-md">
+								<p>
+									Eskişehir, Türkiye'nin bir ili ve en kalabalık yirmi beşinci şehridir. 1993 yılında
+									çıkarılan kanunla Büyükşehir Belediyesi olmuştur. Nüfusu 2020 yılı TÜİK
+									istatistiklerine göre 888.828'dir. Ortasından Porsuk Çayı geçen şehir, içerisinde
+									Osmangazi Üniversitesi, Eskişehir Teknik Üniversitesi ve Anadolu Üniversitesinin
+									bulunması nedeniyle bir öğrenci kenti görünümündedir.
+								</p>
+							</div>
+							<div class="col-md">
+								<img class="foto" src="Assets/img/harita-yakın.png" alt="" />
+							</div>
+						</div>
+					</div>
+
+					<div id="section2" class="section uzun">
+						<h2>Mutfak ve Genel Özellikler</h2>
+						<div class="row">
+							<div class="col-">
+								<img class="foto" width="800px" src="Assets/img/methelvası.png" alt="" />
+							</div>
+							<div class="col-">
+								<p>
+									<br />
+									Met helvası, nuga helvası, haşhaşlı çörek, kalabak suyu, çibörek ve lületaşı ile
+									meşhurdur. Ayrıca balaban kebabı da Eskişehir mutfağında önemli bir yer almaktadır.
+									İşlenebilir lületaşı, Türkiye'de yalnızca Eskişehir'de çıkarıldığı için Eskişehir
+									taşı olarak bilinir. Türkiye'de Eskişehir ve Sivrihisar dolaylarında yetişen bir
+									çoban köpeği olan akbaş da şehre ait önemli değerlerdendir. Sanat kurumları ve
+									tesisleri ile kültür ve sanatta gelişmiş bir şehirdir. Anadolu Üniversitesi ve
+									büyükşehir belediyesi bünyesinde iki adet senfoni orkestrası bulunmaktadır. Ayrıca
+									her yıl düzenlenen Uluslararası Eskişehir Festivali ile şehirde müzik, tiyatro,
+									resim ve sinema dallarında sergiler ve gösteriler yapılmaktadır.
+									<br />
+									<br />
+									Eskişehir günümüze kadar değişik uygarlıklar altında varlığını sürdürmüştür.
+									Üzerinde kurulan medeniyetlerden bazıları Frigya, Bizans, Anadolu Selçukluları ve
+									Osmanlı İmparatorluğu'dur.
+								</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-">
+								<p>
+									Türk Silahlı Kuvvetleri Hava Kuvvetleri Komutanlığı'na bağlı Muharip Hava Kuvveti,
+									Hava Füze Savunma Komutanlığı, 1. Hava İkmal ve Bakım Merkez Komutanlığı ve 1. Ana
+									Jet Üs Komutanlığı'da Eskişehir'de bulunmaktadır. Ayrıca hem askerî hem de sivil
+									havaalanı Hasan Polatkan Havalimanı bulunmaktadır.
+									<br />
+									Eskişehir 2013 yılında Türk Dünyası Kültür Başkenti ve UNESCO Somut Olmayan Kültürel
+									Miras Başkentliği unvanlarını taşımaktadır.
+									<br />
+									<br />
+									Türk Hava Yolları'nın Airbus A330-200 tipi uçağı, TC-JNG, de 'Eskişehir' adını
+									taşımaktadır. Eskişehir, İç Anadolu Bölgesi'nin kuzeybatısında yer almaktadır. İl
+									merkezinin kuzeyinde Mihalgazi ve Sarıcakaya, doğusunda Alpu ve Ankara, güneyinde
+									Mahmudiye, Seyitgazi ve Afyon, batısında ise İnönü ve Kütahya sınırları ile
+									çevrilidir.
+								</p>
+							</div>
+
+							<div class="col-">
+								<img class="foto" width="800px" src="Assets/img/çibörek.jpg" alt="" />
+							</div>
+						</div>
+					</div>
+
+					<div id="section3" class="section orta">
+						<h2>Gezilecek Yerler</h2>
+						<div class="row">
+							<div class="col-">
+								<p>
+									<br />
+									Kentte birçok mesire alanı bulunmaktadır. Bunlardan bazıları şunlardır: Fidanlık
+									orman içi dinlenme yeri, bademlik, Musaözü Barajı, şelale (kalabak) orman içi
+									dinlenme yeri, karataş orman içi dinlenme yeri, çatacık orman içi dinlenme yeri,
+									hasırca, kalabak başı, şoförler çeşmesi, regülatör.
+									<br />
+									<br />
+									Odunpazarı semtinde bulunan Kurşunlu Külliyesi Osmanlı dönemi eseridir. Külliyenin
+									güneydoğusunda Eskişehir Mevlevihanesi bulunur. Külliye, 1525 yılında Kanuni Sultan
+									Süleyman'ın veziri Çoban Mustafa Paşa tarafından yaptırılmıştır. Cami çevresinde
+									medrese ve kervansaray vardır. Osmanlı Devletinin kurucusu Osman Beyin kayınpederi
+									olan Şeyh Edebali' nin türbesi şehrin Odunpazarı semtindeki Odunpazarı mezarlığı'nın
+									içinde bulunmaktadır. Türbe, II. Abdülhamit tarafından restore edilmiştir. Ayrıca
+									külliyenin karşısında Şeyh Şehabettin Türbesi bulunmaktadır.
+								</p>
+							</div>
+							<div class="col-">
+								<img class="foto" width="800px" src="assets/img/kursunlu.jpg" alt="" width="1000px" />
+							</div>
+						</div>
+						<h4>Müzeler</h4>
+						<div class="row">
+							<div class="col-">
+								<img class="foto" width="800px" src="assets/img/eti.jpg" alt="" />
+							</div>
+							<div class="col- orta">
+								<p>
+									Şehirde çeşitli müzeler de bulunmaktadır. Bunlardan biri şehirde bulunan antik
+									eserlerin yer aldığı Eskişehir Arkeoloji Müzesi'dir. Ayrıca Bilim Sanat ve Kültür
+									Parkı, Kent Park, Çağdaş Cam Sanatları Müzesi, Pessinus Müzesi, Seyitgazi Müzesi,
+									Yunus Emre Müzesi, Eskişehir Atatürk ve Kültür Müzesi, Tayyare Müzesi/Hava Müzesi,
+									Eskişehir Balmumu Müzesi, Osmanlı Evi Müzesi, Karikatür müzesi, İnönü Savaşları
+									Karargâh Müzesi bulunmaktadır.
+								</p>
+							</div>
+						</div>
+
+						<h4>Parklar</h4>
+						<div class="row">
+							<div class="col-">
+								<p>
+									Boşaltılan Muttalip Mezarlığı’nın yerine yapılan ve üç adadan oluşan Büyük Park’ın
+									ardından, Kent Park ile Bilim Sanat ve Kültür Parkı ve son olarak Çevre Yolu Polis
+									Okulu Kavşağı ile Ulu Önder mahallesi arasındaki alana yapılmakta olan göletli
+									parkla şehirde bulunan park sayısı 4'e çıkmıştır. Bilim Sanat ve Kültür Parkı
+									bölgesinde oluşturulan, Bilim Deney Merkezi ve Sabancı Uzay Evi ile Hayvanat Bahçesi
+									ve içerisindeki Eti Sualtı Dünyası özel sektör sponsorluğu ile Eskişehir'e
+									kazandırılmış yerlerdir.Kent Park’ta 350 metrelik yapay plaj yer almaktadır.
+									Porsuk’tan bir kol alınarak oluşturulan plaj, yaz aylarında klorlanan artezyen suyu
+									ile yüzmek için sağlıklı hale de getirilmektedir. Ayrıca parkta yapay plajın
+									haricinde açık ve kapalı yüzme havuzları, restoranlar, büyük bir gölet, çocuk oyun
+									alanları, at binme alanları gibi birçok sosyal donatı da yer
+								</p>
+							</div>
+							<div class="col-"><img class="foto" src="assets/img/kanlıkavak.jpg" alt="" /></div>
+						</div>
+					</div>
+
+					<div id="section4" class="section orta">
+						<h2>Yer altı zenginlikleri</h2>
+						<h4>Kalabak suyu</h4>
+						<div class="row">
+							<div class="col-">
+								<img class="foto" src="assets/img/kalabak.jpg" alt="" />
+							</div>
+							<div class="col- orta">
+								<p>
+									Eskişehir ile özdeşleşmiş bir içme suyudur. Atatürk'ün bir seyahati esnasında ikram
+									edilen suyun tadını beğenmeyerek, şehre su araştırma talimatı vermesi üzerine
+									Türkmen Dağı eteklerinden bulunarak 1936 yılında şehre getirilen sudur. Daha
+									önceleri tankerlerde satılan su, son yıllarda damacana sistemi ile dağıtılmaktadır.
+									2013 yılında açıklanan Sağlık Bakanlığı'nca yapılan resmî analiz sonuçlarına göre
+									Türkiye'de 115 suyun analiz sonuçlarına göre içilebilir sular arasındaki 10 firmadan
+									3. su seçilmiştir.
+								</p>
+							</div>
+						</div>
+						<h4>Lületaşı</h4>
+						<div class="row">
+							<div class="col-">
+								<img class="foto" src="assets/img/lületasi2.jpg" alt="" />
+							</div>
+							<div class="col- orta">
+								<p>
+									Lületaşı'nın Türkiye’de işlenebilir olanı yalnız Eskişehir’de bulunmaktadır. "Beyaz
+									altın", "Deniz köpüğü" ve "Eskişehir taşı" gibi adlandırmalar lületaşının değerini,
+									rengini, çıkış merkezini anlamlı bir biçimde ortaya koymaktadır.Lületaşı, magnezyum
+									ve silisyum esaslı ana kaya parçalarının yerin muhtelif derinliklerindeki başkalaşım
+									katmanları içinde, hidrotermal etkilerle hidratlaşması sonucunda oluşmuş değerli bir
+									taştır. Lületaşı ve benzer minerallere, Yunanistan'daki bazı adalar, Moravya,
+									Fransa, İspanya ve Fas ve ABD'de de rastlanmaktadır.
+								</p>
+							</div>
+						</div>
+						<h4>Bor madeni</h4>
+						<div class="row">
+							<div class="col- mt-2">
+								<p>
+									Bölge, bor madeni yönünden de önemli rezervlere sahip olup, Kırka'da bulunan Tinkal
+									madeni, işlenerek %33 oranında borik oksid (B2O3) elde edilmektedir. perlit,
+									manyezit, kalsedon, krom, toryum ve torit Eskişehir'de bulunan diğer madenlerdir.
+								</p>
+							</div>
+							<div class="col-">
+								<img class="foto" width="600px" src="assets/img/bor.jpg" alt="" />
+							</div>
+						</div>
+
+						<h4>Termal kaynaklar</h4>
+						<div class="row">
+							<div class="col-">
+								<p>
+									<br />
+									Eskişehir, bulunduğu yerleşim yeri itibarıyla sıcak su kaynaklarının tam üzerinde
+									bulunmaktadır. Şehir merkezinde, "Sıcak Sular" olarak isimlendiren bölgede, doğal
+									termal kaynaklar bulunmakta, çok sayıda hamam hizmet vermektedir. Sıcak sular Porsuk
+									Çayı'nın güney kısmında geniş bir alan içinde bulunmaktadır. Suyun merkezinde 47 °C
+									'yi bulan sıcaklık bazı alanlarda 35 °C 'ye kadar düşmekte, bazı alanlar ise 55° ye
+									kadar yükselmektedir. Hamamlardaki su hafif demirli ve kükürtlüdür.
+								</p>
+								<p>
+									Bu bölgede çarşı içerisindeki tulumbalardan sıcak su akmakta olup, su bir dönem
+									yakın bölgelerdeki evlere de verilmiştir. Yine il sınırları içerisinde Sakarı
+									Ilıcaları, Hasırca, Kızılinler, Uyuzhamam-Alpu, Alpanos-Seyitgazi,
+									Çardak(Hamamkarahisar)-Günyüzü, Yarıkçı-Mihalıççık bilinen kaplıcalardır.
+								</p>
+							</div>
+							<div class="col-"><img class="foto" src="assets/img/hamam.jpeg" alt="" /></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer id="footer">
+				<p>Bu site © SBD tarafından yapılmıştır 2022</p>
+			</footer>
+		</div>
+		<script src="assets/js/main.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
