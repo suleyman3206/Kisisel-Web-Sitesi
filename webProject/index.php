@@ -32,7 +32,8 @@ function alert($msg) {
       <div id="page-container">
         <div id="content-wrap">
           <!-- all other page content -->
-            <nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+ <!-- all other page content -->
+ <nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
               <div class="container">
                 <a class="navbar-brand" href="index.html"><img src="Assets/img/logo.png" alt="" ></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
@@ -45,19 +46,22 @@ function alert($msg) {
                       <a class="nav-link active" aria-current="page" href="index.html">Hakkımda</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="cv.html">Özgeçmiş</a>
+                      <a class="nav-link" href="ozgecmis.html">Özgeçmiş</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="interests.html">İlgi alanlarım</a>
+                      <a class="nav-link" href="ilgiAlanlarım.html">İlgi alanlarım</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="city.html">Şehrim</a>
+                      <a class="nav-link" href="sehrim.html">Şehrim</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="legacy.html">Mirasımız</a>
+                      <a class="nav-link" href="miras.html">Mirasımız</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="contact.html">İletişim</a>
+                      <a class="nav-link" href="iletisim.html">İletişim</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="login.php">Login</a>
                     </li>
                     
                   </ul>
@@ -74,9 +78,7 @@ function alert($msg) {
               <h4>Ben Kimim?</h4>
               <p>
                   Merhaba,<br>
-                Ben Ömer Tufan Ayhan. Sakarya Üniversitesi, Bilgisayar Mühendisliği 1. sınıf öğrencisiyim. 
-                Bu sayfa 2021 yılında yayına geçmiş olup genel olarak kendim hakkında memleketim, 
-                özgeçmişim gibi bilgiler yer almaktadır.
+                  Ben Süleyman Barış DALLI 2002 yılının mayıs ayında Eskişehirde dünyaya geldim ailem ve ben Eskişehirde yaşamaktayız .2007 yılında babamın mesleği nedeniyle Ankara ile taşındım.İlk ortaokul ve liseyi Ankara da okudum ilk ve orta okulu Sincan İMKB okulunda liseyi ise güzelkent anadolu lisesinde okudum şuan da sakarya üniverstesinin Bilgisayar mühendisliği bölümünde öğrenim görmekteyim.
               </p>
               <br>
               <h4>İlgi Alanlarım</h4>
