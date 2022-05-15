@@ -1,6 +1,6 @@
 
 <?php
-alert("Hoşgeldiniz b191210012");
+alert("Hoşgeldiniz b201210069");
 
 function alert($msg) {
     echo "<script type='text/javascript'>alert('$msg');</script>";
